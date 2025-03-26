@@ -1,6 +1,0 @@
-{
-  "layout": "layouts/page.html",
-  "permalink": "/{{ page.fileSlug }}/",
-  "date": "Last Modified"
-
-}

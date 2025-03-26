@@ -1,5 +1,0 @@
-{
-  "layout": "layouts/about-page.html",
-  "permalink": "/about/{{ page.fileSlug }}/",
-  "theme": 9
-}
