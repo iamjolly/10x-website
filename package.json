@@ -2,7 +2,7 @@
   "name": "10x-website",
   "version": "2.0.1",
   "scripts": {
-    "build": "npm run assets:build && npx @11ty/eleventy --pathprefix=10x-website",
+    "build": "npm run assets:build && npx @11ty/eleventy",
     "assets:autoprefix": "postcss _site/assets/styles/*.css -r",
     "assets:build": "node ./config/buildAssets && npm run assets:autoprefix",
     "assets:clean": "rimraf _site/assets",
