@@ -199,7 +199,7 @@ module.exports = function (eleventyConfig) {
   );
 
   // for federalist builds to work
-  let baseurl = "/";
+  let baseurl = "/10x-website/";
   if (process.env.BASEURL) {
     baseurl = process.env.BASEURL;
   }
@@ -223,7 +223,3 @@ module.exports = function (eleventyConfig) {
     }
   };
 };
-
-module.exports.config = {
-	pathPrefix: "/10x-website/",
-}
