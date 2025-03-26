@@ -14,8 +14,6 @@ const markdownItAttrs = require("markdown-it-attrs");
 
 const yaml = require("js-yaml");
 
-const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
-
 module.exports = function (eleventyConfig) {
 
   // add yaml support for _data files
@@ -176,8 +174,6 @@ module.exports = function (eleventyConfig) {
   
     return headings;
   });
-
-	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   
   /* Markdown Plugins */
   // let markdownIt = require("markdown-it");
