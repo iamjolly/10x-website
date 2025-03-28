@@ -195,7 +195,7 @@ module.exports = function (eleventyConfig) {
   );
 
   // for federalist builds to work
-  let baseurl = "";
+  let baseurl = "10x-website";
   if (process.env.BASEURL) {
     baseurl = process.env.BASEURL;
   }
